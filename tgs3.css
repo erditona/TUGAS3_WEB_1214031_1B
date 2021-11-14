@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}  
+
+[href] {
+    color: yellow;
+}   
+[k1] {
+    color: blue;
+}
+[k2] {
+    color: rgb(0, 19, 102);
+    }
+[k3] {
+    color: rgb(102, 0, 56);
+}
+
+body {
+     background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png); background-size: cover;
+}
+
+#wrapper {
+	width: 940px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+    position: relative;
+}     
+
+.header {
+    background-image: url(https://cdn.pixabay.com/photo/2019/10/01/13/57/megamendung-batik-pattern-4518352_1280.png); background-size: cover;
+    background-size: cover;
+    text-align: center;
+    font-size: large;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: yellow;
+    border-style: groove;
+    background-color: rgb(0, 0, 255);
+}
+
+.artikel {background-color: rgb(127, 255, 212);}
+        
+ul {
+    border-style: groove;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 255);
+} 
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}       
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}       
+li a:hover {
+    color: rgb(0, 0, 255);
+    background-color: yellow;
+}
+          
+ p { 
+    margin-right: 150px;
+    margin-left: 150px;
+        text-align: justify;
+}
+
+#one {
+    background-color: rgb(84, 98, 228);
+    text-align: center;
+}
+#two {
+    background-color: rgb(84, 228, 108);
+    text-align: center;
+}
+#three {
+    background-color: rgb(223, 77, 157);
+    text-align: center;
+}
+#four {
+    background-color: rgb(0, 248, 165);
+    text-align: center;
+}
+
+footer {
+		font-size: 80%;
+		padding: 7px 0px 10px 20px;
+        text-align: center;
+}
